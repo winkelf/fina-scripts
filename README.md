@@ -14,16 +14,6 @@ A collection of small Python scripts exploring option pricing, stochastic proces
 
 - **`4_pdfs.py`** — Explores the forward and backward Kolmogorov equations for geometric Brownian motion: Monte Carlo vs. analytic transition densities (forward), and Monte Carlo vs. analytic solutions for `P(S_T > K | S_t = S)` evolving backward toward its terminal condition.
 
-## `miscelanea/`
-
-Exploratory / scratch scripts, less polished than the main sequence above:
-
-- **`randomWalk.py`** — Simple multiplicative coin-toss random walk (no market data), saves the plot to `test.pdf`.
-- **`niceRandomWalk.py`** — Variant of the log-normal random walk with several different drift (`mu`) values plotted together.
-- **`replication_exp.py`** — Black-Scholes helper functions plus an experiment in replicating an option payoff.
-- **`plot_perez_c.py`** — Loads historical price data for Pérez Companc from `perez_companc_extracted.txt` (not included in this repo) and plots period returns.
-- **`openbb/1D_Tale.py`** — Fetches AAPL daily price data via the OpenBB terminal SDK and plots the closing price.
-
 ## Requirements
 
 ```
